@@ -1,0 +1,30 @@
+.categories {
+//   display: flex;
+  .buttons {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex: 1;
+    padding: 10px;
+  }
+  .searchCategories{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .allcategories{
+    display: inline-flex;
+    justify-content: space-between;
+    flex: 1;
+    color: #555;
+
+    .typography{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 20px;
+        font-size: 18px;
+      }
+  }
+  
+}
